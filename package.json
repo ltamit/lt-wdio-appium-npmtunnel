@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "onprem": "npx wdio run ./wdio.conf.js",
-    "parallel": "npx wdio run ./wdio.confparallel.js",
-    "single": "npx wdio run ./wdio.confsingle.js",
     "app": "npx wdio run ./wdio.confApp.js"
   },
   "keywords": [],
   "author": "Mayank M",
   "license": "ISC",
   "dependencies": {
+    "@lambdatest/node-tunnel": "^3.0.12",
     "@wdio/cli": "^7.16.14",
     "wdio-lambdatest-service": "^1.0.8"
   },
@@ -21,7 +19,6 @@
     "@wdio/mocha-framework": "^7.16.14",
     "@wdio/selenium-standalone-service": "^7.20.8",
     "@wdio/spec-reporter": "^7.16.14",
-    "chromedriver": "^97.0.4",
     "wdio-chromedriver-service": "^7.2.6"
   }
 }

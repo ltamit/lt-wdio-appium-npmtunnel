@@ -1,0 +1,70 @@
+{"level":"debug","time":"2023-04-02T17:07:58.917+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-04-02T17:07:59.219+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.28"}
+{"level":"debug","time":"2023-04-02T17:07:59.219+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-04-02T17:07:59.220+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-04-02T17:07:59.220+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2023-04-02T17:07:59.220+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user amitwalia --key ***** --controller npm --infoAPIPort 62905 --tunnelName LT-MBP-066.local62905 --logFile LT-MBP-066.local62905.log --port 62906"}
+{"level":"debug","time":"2023-04-02T17:07:59.745+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-04-02T17:07:59.927+0530","caller":"custom/setup.go:708","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-04-02T17:07:59.927+0530","caller":"networkscanner/setup.go:121","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2023-04-02T17:07:59.927+0530","caller":"networkscanner/setup.go:53","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-04-02T17:07:59.926+0530","caller":"apiserver/setup.go:154","msg":"Starting API server"}
+{"level":"info","time":"2023-04-02T17:07:59.927+0530","caller":"custom/setup.go:655","msg":"Tunnel binary started on port :62906"}
+{"level":"debug","time":"2023-04-02T17:07:59.927+0530","caller":"apiserver/setup.go:136","msg":"Starting API server for tunnel info on port: 62905"}
+{"level":"debug","time":"2023-04-02T17:07:59.927+0530","caller":"networkscanner/setup.go:87","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-04-02T17:08:00.032+0530","caller":"networkscanner/setup.go:138","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-04-02T17:08:00.679+0530","caller":"networkscanner/setup.go:74","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-04-02T17:08:00.702+0530","caller":"networkscanner/setup.go:163","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-04-02T17:08:00.703+0530","caller":"networkscanner/setup.go:108","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2023-04-02T17:08:00.714+0530","caller":"networkscanner/setup.go:201","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-04-02T17:08:00.714+0530","caller":"core/lifecycle.go:249","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-04-02T17:08:00.714+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-04-02T17:08:01.607+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-04-02T17:08:01.607+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-04-02T17:08:02.771+0530","caller":"core/lifecycle.go:321","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-04-02T17:08:02.771+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-04-02T17:08:02.771+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-04-02T17:08:02.771+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-04-02T17:08:03.489+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 31049"}
+{"level":"debug","time":"2023-04-02T17:08:03.515+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 21465"}
+{"level":"info","time":"2023-04-02T17:08:03.515+0530","caller":"core/lifecycle.go:335","msg":"You can start testing now"}
+{"level":"info","time":"2023-04-02T17:08:03.515+0530","caller":"core/lifecycle.go:336","msg":"Tunnel ID: 3500934"}
+{"level":"debug","time":"2023-04-02T17:08:03.515+0530","caller":"core/lifecycle.go:337","msg":"Remote Listener Started on Port 19844"}
+{"level":"debug","time":"2023-04-02T17:08:03.549+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 22282"}
+{"level":"debug","time":"2023-04-02T17:08:03.609+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 15809"}
+{"level":"debug","time":"2023-04-02T17:08:03.653+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 15653"}
+{"level":"debug","time":"2023-04-02T17:08:22.957+0530","caller":"custom/setup.go:345","msg":"handle http request for localhost"}
+{"level":"debug","time":"2023-04-02T17:08:22.960+0530","caller":"custom/setup.go:437","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Content-Length:[2515] Content-Type:[text/html] Date:[Sun, 02 Apr 2023 11:38:22 GMT] Etag:[\"9d3-5f830a14007c0\"] Last-Modified:[Fri, 31 Mar 2023 11:37:11 GMT] Server:[Apache/2.4.52 (Unix) OpenSSL/1.1.1m PHP/8.0.15 mod_perl/2.0.11 Perl/v5.32.1]] 0xc00015e480 2515 [] false false map[] 0xc000566100 <nil>} for http request from host localhost"}
+{"level":"debug","time":"2023-04-02T17:08:23.307+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://login.live.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:23.389+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ajax.googleapis.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:23.395+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://maxcdn.bootstrapcdn.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:24.506+0530","caller":"custom/setup.go:345","msg":"handle http request for localhost"}
+{"level":"debug","time":"2023-04-02T17:08:24.510+0530","caller":"custom/setup.go:437","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Content-Length:[30894] Date:[Sun, 02 Apr 2023 11:38:24 GMT] Etag:[\"78ae-4303112ee9900\"] Last-Modified:[Fri, 11 May 2007 12:40:36 GMT] Server:[Apache/2.4.52 (Unix) OpenSSL/1.1.1m PHP/8.0.15 mod_perl/2.0.11 Perl/v5.32.1]] 0xc00015e900 30894 [] false false map[] 0xc0003b0400 <nil>} for http request from host localhost"}
+{"level":"debug","time":"2023-04-02T17:08:24.699+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://edge.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:24.866+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.bing.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:25.023+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://nav-edge.smartscreen.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:26.321+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://edge.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:26.449+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://edge.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:26.456+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://edge.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:26.537+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://data-edge.smartscreen.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:26.537+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://data-edge.smartscreen.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:27.504+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://edgeassetservice.azureedge.net:443"}
+{"level":"debug","time":"2023-04-02T17:08:27.613+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://edgeassetservice.azureedge.net:443"}
+{"level":"debug","time":"2023-04-02T17:08:28.589+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://data-edge.smartscreen.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:30.721+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://self.events.data.microsoft.com:443"}
+{"level":"debug","time":"2023-04-02T17:08:33.970+0530","caller":"core/lifecycle.go:378","msg":"Context cancelled"}
+{"level":"info","time":"2023-04-02T17:08:33.970+0530","caller":"core/lifecycle.go:380","msg":"Stopping tunnel"}
+{"level":"debug","time":"2023-04-02T17:08:33.970+0530","caller":"custom/setup.go:696","msg":"Exiting the sink proxy"}
+{"level":"debug","time":"2023-04-02T17:08:33.970+0530","caller":"apiserver/setup.go:132","msg":"Shutting down the server"}
+{"level":"debug","time":"2023-04-02T17:08:33.971+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-04-02T17:08:33.971+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-04-02T17:08:34.632+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 31049 closed, reason: EOF"}
+{"level":"debug","time":"2023-04-02T17:08:34.632+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 31049"}
+{"level":"debug","time":"2023-04-02T17:08:34.632+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 21465 closed, reason: EOF"}
+{"level":"debug","time":"2023-04-02T17:08:34.632+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 21465"}
+{"level":"debug","time":"2023-04-02T17:08:34.634+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 15809 closed, reason: EOF"}
+{"level":"debug","time":"2023-04-02T17:08:34.634+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 15809"}
+{"level":"debug","time":"2023-04-02T17:08:34.637+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 15653 closed, reason: EOF"}
+{"level":"debug","time":"2023-04-02T17:08:34.637+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 15653"}
+{"level":"debug","time":"2023-04-02T17:08:34.637+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 22282 closed, reason: EOF"}
+{"level":"debug","time":"2023-04-02T17:08:34.637+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 22282"}

@@ -1,0 +1,136 @@
+{"level":"debug","time":"2023-04-02T17:28:46.933+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-04-02T17:28:47.212+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.28"}
+{"level":"debug","time":"2023-04-02T17:28:47.213+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-04-02T17:28:47.213+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-04-02T17:28:47.213+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2023-04-02T17:28:47.213+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user amitwalia --key ***** --controller npm --infoAPIPort 64115 --tunnelName LT-MBP-066.local64115 --logFile LT-MBP-066.local64115.log --port 64116"}
+{"level":"debug","time":"2023-04-02T17:28:47.718+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-04-02T17:28:47.842+0530","caller":"apiserver/setup.go:154","msg":"Starting API server"}
+{"level":"debug","time":"2023-04-02T17:28:47.842+0530","caller":"custom/setup.go:708","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-04-02T17:28:47.842+0530","caller":"networkscanner/setup.go:87","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-04-02T17:28:47.842+0530","caller":"apiserver/setup.go:136","msg":"Starting API server for tunnel info on port: 64115"}
+{"level":"debug","time":"2023-04-02T17:28:47.842+0530","caller":"networkscanner/setup.go:53","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-04-02T17:28:47.843+0530","caller":"networkscanner/setup.go:121","msg":"Trying over ssh over ws"}
+{"level":"info","time":"2023-04-02T17:28:47.844+0530","caller":"custom/setup.go:655","msg":"Tunnel binary started on port :64116"}
+{"level":"debug","time":"2023-04-02T17:28:47.954+0530","caller":"networkscanner/setup.go:138","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-04-02T17:28:48.569+0530","caller":"networkscanner/setup.go:163","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-04-02T17:28:48.587+0530","caller":"networkscanner/setup.go:74","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-04-02T17:28:48.595+0530","caller":"networkscanner/setup.go:108","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2023-04-02T17:28:48.595+0530","caller":"networkscanner/setup.go:201","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-04-02T17:28:48.595+0530","caller":"core/lifecycle.go:249","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-04-02T17:28:48.596+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-04-02T17:28:49.005+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-04-02T17:28:49.005+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-04-02T17:28:50.869+0530","caller":"core/lifecycle.go:321","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-04-02T17:28:50.869+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-04-02T17:28:50.869+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-04-02T17:28:50.869+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-04-02T17:28:51.602+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 9533"}
+{"level":"debug","time":"2023-04-02T17:28:51.602+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 8094"}
+{"level":"info","time":"2023-04-02T17:28:51.602+0530","caller":"core/lifecycle.go:335","msg":"You can start testing now"}
+{"level":"info","time":"2023-04-02T17:28:51.602+0530","caller":"core/lifecycle.go:336","msg":"Tunnel ID: 3500976"}
+{"level":"debug","time":"2023-04-02T17:28:51.603+0530","caller":"core/lifecycle.go:337","msg":"Remote Listener Started on Port 26189"}
+{"level":"debug","time":"2023-04-02T17:28:51.619+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 18728"}
+{"level":"debug","time":"2023-04-02T17:28:51.705+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 19185"}
+{"level":"debug","time":"2023-04-02T17:28:51.725+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 13342"}
+{"level":"debug","time":"2023-04-02T17:29:04.269+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:05.892+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://voilatile-pa.googleapis.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:06.349+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://voilatile-pa.googleapis.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:19.596+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://iplocation.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:19.756+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://iplocation.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:20.185+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://iplocation.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:20.775+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.speedtest.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:20.993+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.speedtest.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:21.230+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.speedtest.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:23.802+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://b.cdnst.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:23.804+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://zdstatic.speedtest.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:23.816+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://b.cdnst.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:23.835+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://b.cdnst.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:24.176+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://b.cdnst.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:24.178+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://zdstatic.speedtest.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:24.334+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://zdstatic.speedtest.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:24.343+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://b.cdnst.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:25.941+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://c.amazon-adsystem.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:25.943+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ads.pubmatic.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:26.002+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.googletagmanager.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:26.077+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.googletagservices.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:26.169+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://cdn.cookielaw.org:443"}
+{"level":"debug","time":"2023-04-02T17:29:26.435+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://c.amazon-adsystem.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:26.438+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ads.pubmatic.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:26.518+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.googletagservices.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:26.639+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://cdn.cookielaw.org:443"}
+{"level":"debug","time":"2023-04-02T17:29:27.714+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://securepubads.g.doubleclick.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:27.846+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.google-analytics.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:27.863+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://cdn.static.zdbb.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:27.895+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://geolocation.onetrust.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:28.129+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://c.amazon-adsystem.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:28.155+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://securepubads.g.doubleclick.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:28.302+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://cdn.static.zdbb.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:28.331+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://geolocation.onetrust.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:28.367+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://securepubads.g.doubleclick.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:28.674+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://securepubads.g.doubleclick.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:28.815+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://speeddlh1.jioconnect.com.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.843+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://stk.skyrocketnet.com.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.847+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://sp2.realtel.in.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.872+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://testenew.enewinfotech.com.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.893+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://speedtest.sonepat.softechinfosol.com.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.893+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://speedtestsonipat.kkdbroadband.co.in.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.908+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://speedtest.dl.gtel.in.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.935+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ooklaserver1-del1.skymax.org.in.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.937+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://speed3.aitspl.in.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:28.938+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://nms.skyrocketnet.com.prod.hosts.ooklaserver.net:8080"}
+{"level":"debug","time":"2023-04-02T17:29:29.639+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://www.google.co.in:443"}
+{"level":"debug","time":"2023-04-02T17:29:29.738+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://cdn.ziffstatic.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:29.738+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://stats.g.doubleclick.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:29.745+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://analytics.google.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:29.784+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://gurgle.speedtest.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.163+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://cdn.ziffstatic.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.392+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ads.servenobid.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.396+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://c2shb.pubgw.yahoo.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.401+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://prebid.media.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.405+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://hbopenbid.pubmatic.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.433+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://htlb.casalemedia.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.433+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ib.adnxs.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.437+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://fastlane.rubiconproject.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.441+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ookla-d.openx.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.474+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://gurgle.speedtest.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.849+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://prebid.media.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.914+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ookla-d.openx.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.924+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://hbopenbid.pubmatic.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.924+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://c2shb.pubgw.yahoo.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.969+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ads.servenobid.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:30.972+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://htlb.casalemedia.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:31.084+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://fastlane.rubiconproject.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:31.156+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://ib.adnxs.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:32.692+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://gurgle.zdbb.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:33.079+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://adservice.google.co.in:443"}
+{"level":"debug","time":"2023-04-02T17:29:33.157+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://013d3cac332369647d4b1b8a3ccaa45a.safeframe.googlesyndication.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:33.158+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://adservice.google.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:33.167+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://pagead2.googlesyndication.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:33.442+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://gurgle.zdbb.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:33.542+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://adservice.google.co.in:443"}
+{"level":"debug","time":"2023-04-02T17:29:33.586+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://adservice.google.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:33.619+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://pagead2.googlesyndication.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:34.024+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://013d3cac332369647d4b1b8a3ccaa45a.safeframe.googlesyndication.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:35.812+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://jogger.zdbb.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.088+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://eus.rubiconproject.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.101+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://public.servenobid.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.107+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://acdn.adnxs.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.112+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://u.openx.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.144+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://js-sec.indexww.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.184+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://cdn.static.zdbb.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.193+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://tags.bkrtx.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.464+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://jogger.zdbb.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.514+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://eus.rubiconproject.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.541+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://cdn.static.zdbb.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.555+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://u.openx.net:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.574+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://acdn.adnxs.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.581+0530","caller":"custom/setup.go:470","msg":"handling connect request for URL https://js-sec.indexww.com:443"}
+{"level":"debug","time":"2023-04-02T17:29:36.615+0530","caller":"apiserver/setup.go:132","msg":"Shutting down the server"}
+{"level":"debug","time":"2023-04-02T17:29:36.616+0530","caller":"core/lifecycle.go:378","msg":"Context cancelled"}
+{"level":"info","time":"2023-04-02T17:29:36.616+0530","caller":"core/lifecycle.go:380","msg":"Stopping tunnel"}
+{"level":"debug","time":"2023-04-02T17:29:36.617+0530","caller":"custom/setup.go:696","msg":"Exiting the sink proxy"}
+{"level":"debug","time":"2023-04-02T17:29:36.618+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-04-02T17:29:36.618+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-04-02T17:29:36.625+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:64116, error: dial tcp 127.0.0.1:64116: connect: connection refused"}
+{"level":"error","time":"2023-04-02T17:29:36.663+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:64116, error: dial tcp 127.0.0.1:64116: connect: connection refused"}

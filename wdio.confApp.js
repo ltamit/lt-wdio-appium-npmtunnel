@@ -25,8 +25,8 @@ exports.config = {
     // should work too though). These services define specific user and key (or access key)
     // values you need to put in here in order to connect to these services.
     //
-    user:'',
-    key: '',
+    user: process.env.LT_USERNAME,
+    key: process.env.LT_ACCESS_KEY,
     //
     // If you run your tests on Sauce Labs you can specify the region you want to run your tests
     // in via the `region` property. Available short handles for regions are `us` (default), `eu` and `apac`.
@@ -50,7 +50,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/single_test.js'
+        './test/specs/proverbial_android.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -85,7 +85,7 @@ exports.config = {
             "deviceName" : "Google Pixel 6",
             "isRealMobile" : true,
             "platformVersion" : "12",
-        app: 'android_appurl'
+        app: 'LT_Proverbial_App'
       }],
     //
     // ===================
@@ -134,7 +134,11 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['lambdatest'],
+    services: [
+        ['lambdatest', {
+            tunnel: true
+        }]
+    ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
